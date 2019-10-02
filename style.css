@@ -8,3 +8,29 @@
     margin: 0;
     align-self: auto;
 }
+
+.doctorwho {
+    width:1200px;
+    height: auto;
+}
+
+.interests {
+    width: 40%;
+    height: 150px;
+    float: left;
+    margin: 50px;
+    margin-bottom: 50px;
+}
+
+.prog-interest {
+    width: 40%;
+    height: 150px;
+    float: right;
+    margin: 50px;
+    margin-bottom: 50px;
+}
+
+.contacts {
+    width: 50px;
+    height: auto;
+}
