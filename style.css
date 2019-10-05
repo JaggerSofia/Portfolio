@@ -1,19 +1,7 @@
-/* color codes i will potentially use:
-#ccf0c3
-#bca3ca
-#7c4789
-#4a0e5c*/
-
-/* .gray {
-    background: #dcdddc;
-    color:#888;
-    padding: 2rem;
-    text-align: center;
-    font-weight: bold;
-    border-bottom: 1px solid #eeeeee;
-    margin: 0;
-    align-self: auto;
-} */
+/*
+color codes i will potentially use:
+#c06014
+*/
 
 .doctorwho {
     width:500px;
@@ -53,12 +41,20 @@ p {
     height: auto;
 }
 
-header, #projects {
-    background: #eddbcd;
+body {
+    margin: 0;
+}
+
+header {
+    background: #c06014;
+} 
+
+#projects {
+    background:  #cdcdcd;
 }
 
 #bio, #contact-me {
-    background: #cdcdcd
+    background: #eddbcd;
 }
 
 @media screen and (min-width: 600px) {
@@ -80,8 +76,8 @@ header, #projects {
     }
 
     .interests, .prog-interest, .project-desc{
-        border: 3px dotted #c06014;
-        border-radius: 15px 15px 15px 15px;
+        /* border: 3px dotted #c06014;
+        border-radius: 15px 15px 15px 15px; */
         padding: 15px;
         margin: 5px;
         display: flex;
@@ -95,6 +91,14 @@ header, #projects {
     #projects {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         flex: 1 1;
