@@ -4,7 +4,7 @@
 #7c4789
 #4a0e5c*/
 
-.gray {
+/* .gray {
     background: #dcdddc;
     color:#888;
     padding: 2rem;
@@ -13,13 +13,26 @@
     border-bottom: 1px solid #eeeeee;
     margin: 0;
     align-self: auto;
-}
+} */
 
 .doctorwho {
     width:500px;
     height: auto;
 }
 
+@font-face {
+    font-family: 'Lora';
+    src: url('Lora-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu-Regular.ttf');
+}
+
+p {
+    font-family: 'Ubuntu';
+}
 /* .interests {
     width: 40%;
     height: 150px;
@@ -41,6 +54,10 @@
     height: auto;
 }
 
+body {
+    background: #b6a19e
+}
+
 @media screen and (min-width: 600px) {
     header {
         display: flex;
@@ -48,6 +65,7 @@
         justify-content: center;
         align-items: center;
         flex: 1 1;
+        line-height: 14px;
     }
 
     #bio {
@@ -59,7 +77,8 @@
     }
 
     .interests, .prog-interest, .project-desc {
-        border: 1px solid #eeeeee;
+        border: 3px solid #b6a19a;
+        background: #b6a19e;
         border-radius: 15px 15px 15px 15px;
         padding: 15px;
         margin: 5px;
@@ -68,6 +87,7 @@
         justify-content: center;
         align-items: center;
         flex: 1 1;
+        line-height: 20px;
     }
 
     #projects {
@@ -110,7 +130,8 @@
     }
 
     .interests, .prog-interest {
-        border: 1px solid #eeeeee;
+        border: 3px solid #b6a19a;
+        background: #b6a19e;
         border-radius: 15px 15px 15px 15px;
         padding: 15px;
         margin: 5px;
@@ -119,10 +140,12 @@
         justify-content: center;
         align-items: center;
         flex: 1 1;
+        line-height: 20px;
     }
 
     .project-desc {
-        border: 1px solid #eeeeee;
+        border: 3px solid #b6a19a;
+        background: #b6a19e;
         border-radius: 15px 15px 15px 15px;
         padding: 15px;
         margin: 5px;
