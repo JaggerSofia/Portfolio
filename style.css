@@ -3,11 +3,6 @@ color codes i will potentially use:
 #c06014
 */
 
-.doctorwho {
-    width:500px;
-    height: auto;
-}
-
 @font-face {
     font-family: 'Lora';
     src: url('fonts/Lora-Regular.ttf');
@@ -96,6 +91,11 @@ header {
         flex: 1 1;
     }
 
+    .project-img {
+        width:250px;
+        height: auto;
+    }
+
     .row {
         display: flex;
         flex-direction: row;
@@ -159,6 +159,11 @@ header {
         justify-content: center;
         align-items: center;
         flex: 1 1;
+    }
+
+    .project-img {
+        width:500px;
+        height: auto;
     }
 
     .pro-des, .link {
