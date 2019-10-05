@@ -53,10 +53,6 @@ p {
     height: auto;
 }
 
-body {
-    background: #000;
-}
-
 header, #projects {
     background: #eddbcd;
 }
@@ -169,6 +165,14 @@ header, #projects {
         align-items: center;
         flex: 1 1;
         float: left;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1;
     }
 
     #contact-me {
