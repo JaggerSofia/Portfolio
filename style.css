@@ -22,32 +22,31 @@
 
 @font-face {
     font-family: 'Lora';
-    src: url('Lora-Regular.ttf');
+    src: url('fonts/Lora-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('Ubuntu-Regular.ttf');
+    src: url('fonts/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'myHand';
+    src: url('fonts/VictoriasHandwriting-Regular.ttf');
+}
+
+header {
+    font-family: 'myHand';
+}
+
+h3 {
+    font-family: 'Ubuntu';
+
 }
 
 p {
-    font-family: 'Ubuntu';
+    font-family: 'Lora';
 }
-/* .interests {
-    width: 40%;
-    height: 150px;
-    float: left;
-    margin: 50px;
-    margin-bottom: 50px;
-}
-
-.prog-interest {
-    width: 40%;
-    height: 150px;
-    float: right;
-    margin: 50px;
-    margin-bottom: 50px; 
-} */
 
 .contacts {
     width: 30px;
@@ -127,6 +126,7 @@ body {
         justify-content: center;
         align-items: center;
         flex: 1 1;
+        text-align: center
     }
 
     .interests, .prog-interest {
