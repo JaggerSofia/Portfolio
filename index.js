@@ -1,4 +1,4 @@
-function hiddenWindow() {
+$('document').ready( function() {
     //this will be where I add the functionality that will
     //allow me to hover over an area and the content will change.
     //will either be the bio are or the project area. Though
@@ -14,6 +14,4 @@ function hiddenWindow() {
         $('.about').show();
         $('.description').hide();
     })
-}
-
-hiddenWindow();
+});
