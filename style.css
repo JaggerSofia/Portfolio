@@ -2,6 +2,10 @@
 color codes i will potentially use:
 #c06014
 */
+.project-img {
+    width:500px;
+    height: auto;
+}
 
 @font-face {
     font-family: 'Lora';
@@ -24,7 +28,6 @@ h1 {
 
 h3 {
     font-family: 'Ubuntu';
-
 }
 
 p {
