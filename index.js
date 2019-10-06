@@ -6,22 +6,22 @@ $('document').ready( function() {
     //that displays the description for it completeyly visible
     console.log('hiddenWindow')
     $('.interests').mouseenter(function(){
-        $('.about').hide();
-        $('.description').show();
+        $('.about-me').hide();
+        $('.description-me').show();
     })
 
     $('.interests').mouseleave(function(){
-        $('.about').show();
-        $('.description').hide();
+        $('.about-me').show();
+        $('.description-me').hide();
     })
 
     $('.prog-interest').mouseenter(function(){
-        $('.about').hide();
-        $('.description').show();
+        $('.about-pro').hide();
+        $('.description-pro').show();
     })
 
     $('.prog-interest').mouseleave(function(){
-        $('.about').show();
-        $('.description').hide();
+        $('.about-pro').show();
+        $('.description-pro').hide();
     })
 });
