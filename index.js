@@ -5,12 +5,22 @@ $('document').ready( function() {
     //I might do the image for the project also but keep the area
     //that displays the description for it completeyly visible
     console.log('hiddenWindow')
-    $('#bio').mouseenter(function(){
+    $('.interests').mouseenter(function(){
         $('.about').hide();
         $('.description').show();
     })
 
-    $('#bio').mouseleave(function(){
+    $('.interests').mouseleave(function(){
+        $('.about').show();
+        $('.description').hide();
+    })
+
+    $('.prog-interest').mouseenter(function(){
+        $('.about').hide();
+        $('.description').show();
+    })
+
+    $('.prog-interest').mouseleave(function(){
         $('.about').show();
         $('.description').hide();
     })
