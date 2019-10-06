@@ -43,9 +43,9 @@ body {
     margin: 0;
 }
 
-header {
+/* header {
     background: #c06014;
-} 
+}  */
 
 #projects {
     background:  #cdcdcd;
@@ -63,6 +63,8 @@ header {
         align-items: center;
         flex: 1 1;
         line-height: 14px;
+        background: #c06014;
+        text-align: center;
     }
 
     #bio {
@@ -128,6 +130,8 @@ header {
         justify-content: center;
         align-items: center;
         flex: 1 1;
+        background: #c06014;
+        text-align: center;
     }
 
     #bio {
