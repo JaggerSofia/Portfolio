@@ -1,6 +1,6 @@
 $(function() {
-    $('.description-me').hide();
-    $('.description-pro').hide();
+//     $('.description-me').hide();
+//     $('.description-pro').hide();
     $('.interests').mouseenter(function(){
         $('.about-me').hide();
         $('.description-me').show();
