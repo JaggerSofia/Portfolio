@@ -1,28 +1,28 @@
-$(function() {
+// $(function() {
 
-    // $('.description-me').hide();
-    // $('.description-pro').hide();
+//     // $('.description-me').hide();
+//     // $('.description-pro').hide();
 
-    $('.interests').mouseenter(function(){
-        $('.about-me').hide();
-        $('.description-me').show();
-    })
+//     $('.interests').mouseenter(function(){
+//         $('.about-me').hide();
+//         $('.description-me').show();
+//     })
 
-    $('.interests').mouseleave(function(){
-        $('.about-me').show();
-        $('.description-me').hide();
-    })
+//     $('.interests').mouseleave(function(){
+//         $('.about-me').show();
+//         $('.description-me').hide();
+//     })
 
-    $('.prog-interest').mouseenter(function(){
-        $('.about-pro').hide();
-        $('.description-pro').show();
-    })
+//     $('.prog-interest').mouseenter(function(){
+//         $('.about-pro').hide();
+//         $('.description-pro').show();
+//     })
 
-    $('.prog-interest').mouseleave(function(){
-        $('.about-pro').show();
-        $('.description-pro').hide();
-    })
-});
+//     $('.prog-interest').mouseleave(function(){
+//         $('.about-pro').show();
+//         $('.description-pro').hide();
+//     })
+// });
 
     //this will be where I add the functionality that will
     //allow me to hover over an area and the content will change.
