@@ -56,6 +56,91 @@ body {
     background: #eddbcd;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    line-height: 14px;
+    background: #c06014;
+    text-align: center;
+    margin: 0;
+}
+
+#bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+}
+
+.interests, .prog-interest, .project-desc{
+    /* border: 3px dotted #c06014;
+    border-radius: 15px 15px 15px 15px; */
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    line-height: 20px;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    text-align: center;
+}
+
+.project-img {
+    width: 300px;
+    height: auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+}
+
+.tech-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+}
+
+#contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    padding: 10px;
+}
+
+.contact-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+}
+
+.contacts {
+    width: 30px;
+    height: auto;
+}
+
 @media screen and (min-width: 320px) {
     header {
         display: flex;
@@ -100,7 +185,7 @@ body {
     }
 
     .project-img {
-        width: 300px;
+        width: 320px;
         height: auto;
     }
 
