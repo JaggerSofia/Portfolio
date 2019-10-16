@@ -104,7 +104,15 @@ body {
         height: auto;
     }
 
-    .row {
+    .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1;
+    }
+
+    .tech-row {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -197,7 +205,15 @@ body {
         float: left;
     }
 
-    .row {
+    .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1;
+    }
+
+    .tech-row {
         display: flex;
         flex-direction: row;
         justify-content: center;
