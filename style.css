@@ -32,6 +32,12 @@ h3 {
 
 p {
     font-family: 'Lora';
+    text-align: left;
+}
+
+.proj-padd {
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .contacts {
@@ -265,7 +271,7 @@ header {
     .project-desc {
         /* border: 3px dotted #c06014;
         border-radius: 15px 15px 15px 15px; */
-        padding: 15px;
+        padding: 20px 20px 20px 20px;
         margin: 5px;
         display: flex;
         flex-direction: row;
